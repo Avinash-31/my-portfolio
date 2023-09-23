@@ -1,0 +1,19 @@
+
+.project-card {
+    display: flex;
+    /* Add other styling properties for your cards */
+    transition: transform 0.2s ease-in-out; /* Example transition for hover effect */
+  }
+  
+
+  
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  
+  .project-card {
+    animation: fadeIn 1s ease-in-out;
+  }
+    
