@@ -12,6 +12,7 @@ import {
 } from "./HeroElements";
 import { TypeAnimation } from 'react-type-animation';
 import ScrollAnimation from "react-animate-on-scroll";
+import "./ImageAnimation.css"; 
 
 function Hero() {
   const [isOpen, setIsOpen] = useState(false);
@@ -92,6 +93,7 @@ function Hero() {
               <Image
                 src="/hero.png"
                 alt="hero"
+                className="animated-image"
               />
             </ScrollAnimation>
           </HeroRight>
