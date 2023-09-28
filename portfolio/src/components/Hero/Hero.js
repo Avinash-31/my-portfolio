@@ -68,8 +68,6 @@ function Hero() {
                     300,
                     () => setShowScrollDown(true),
                     1000,
-                    "Seriously, my projects are really cool, go check them out!",
-                    1000,
                     "You're uh...",
                     1000,
                     "You're uh... still here?",

@@ -42,14 +42,13 @@ function About() {
             </div>
             <div className="AboutBio">
               <div className="fadeInLeft">
-                Hello! My name is <strong>Avinash Yeddu</strong>. I'm a 3rd year CSE undergrad from NIT Durgapur, West Bengal, India. During my time here, I gained valuable experience through various entry-level positions, which greatly enhanced my work ethic, communication skills, and adaptability.
+                Hello! My name is <strong>Avinash Yeddu</strong>. I'm a 3rd year CSE undergrad from NIT Durgapur, West Bengal, India. During my time here, I gained valuable experience through various entry-level positions, which greatly enhanced my communication skills, and adaptability.
               </div>
 
               <br /><br />
 
               <div className="fadeInRight">
-                My journey into the world of technology began with a strong passion for problem-solving, which led me to pursue the Computer Science and Engineering program. Despite its challenges, I remained determined and forged lasting friendships that supported me throughout this demanding program.
-                Throughout my studies at NIT DGp, I had the opportunity to engage in fascinating projects.
+                My journey into the world of technology began with a strong passion for problem-solving, which led me to pursue the Computer Science and Engineering program.
               </div>
 
               <br /><br />
