@@ -9,7 +9,7 @@ export const ProjectList = [
     demo_url: "https://www.istenitdgp.com/",
   },
   {
-    img: "/project-images/project.png",
+    img: "/project-images/panorama.png",
     title: "Panorama",
     description:
       "Online Fest Web Application for ISTE NIT Durgapur.",
@@ -17,9 +17,27 @@ export const ProjectList = [
     github_url: "https://github.com/Avinash-31/pano-31",
     demo_url: "https://www.panorama.istenitdgp.com/",
   },
+  {
+    img: "/project-images/portfolio.png",
+    title: "Portfolio",
+    description:
+      "Personal Portfolio using react js.",
+    tech_stack: ['HTML','CSS','JavaScript','ReactJs'],
+    github_url: "https://github.com/Avinash-31/my-portfolio",
+    demo_url: "/",
+  },
+  {
+    img: "/project-images/cit.png",
+    title: "CIT - Online Quiz Application",
+    description:
+      "CIT Quiz web application for ISTE- Students Chapter NIT Durgapur",
+    tech_stack: ['HTML','CSS','JavaScript','Django'],
+    github_url: "https://github.com/Avinash-31/stcit",
+    demo_url: "https://cit.istenitdgp.com/",
+  },
 ];
 
-// --------------------------------------- Skills
+//Skills
 
 export const stackList = [
   {
@@ -47,16 +65,8 @@ export const stackList = [
     name: "Git",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
-    name: "React Native",
-  },
-  {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
     name: "NodeJS",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg",
-    name: "Firebase",
   },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
@@ -67,28 +77,16 @@ export const stackList = [
     name: "Python",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg",
-    name: "Flask",
+    img: "https://w7.pngwing.com/pngs/159/366/png-transparent-django-python-computer-icons-logo-python-text-label-rectangle-thumbnail.png",
+    name: "Django",
   },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg",
     name: "C",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-    name: "Java",
-  },
-  {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg",
     name: "MySQL",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg",
-    name: "Material UI",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg",
-    name: "Figma",
   },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",

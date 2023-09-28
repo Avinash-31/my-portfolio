@@ -1,7 +1,7 @@
 /* ImageAnimation.css */
 .animated-image {
     position: relative;
-    left:100%;
+    /* left:100%; */
     animation: scaleAnimation 2s infinite alternate;
   }
   

@@ -9,7 +9,8 @@ import {
   TechName,
   ContactWrapper,
 } from "./AboutElements";
-import ScrollAnimation from "react-animate-on-scroll";
+import "./about.css";
+// import div from "react-animate-on-scroll";
 function About() {
   return (
     <>
@@ -33,42 +34,42 @@ function About() {
         <div className="Container">
           <div className="SectionTitle">About Me</div>
           <div className="BigCard">
-            <ScrollAnimation animateIn="fadeInRight">
+            <div className="fadeInRight">
               <Image
                 src="/hero.png"
                 alt="man-svgrepo"
               />
-            </ScrollAnimation>
+            </div>
             <div className="AboutBio">
-              <ScrollAnimation animateIn="fadeInLeft">
+              <div className="fadeInLeft">
                 Hello! My name is <strong>Avinash Yeddu</strong>. I'm a 3rd year CSE undergrad from NIT Durgapur, West Bengal, India. During my time here, I gained valuable experience through various entry-level positions, which greatly enhanced my work ethic, communication skills, and adaptability.
-              </ScrollAnimation>
+              </div>
 
               <br /><br />
 
-              <ScrollAnimation animateIn="fadeInRight">
+              <div className="fadeInRight">
                 My journey into the world of technology began with a strong passion for problem-solving, which led me to pursue the Computer Science and Engineering program. Despite its challenges, I remained determined and forged lasting friendships that supported me throughout this demanding program.
                 Throughout my studies at NIT DGp, I had the opportunity to engage in fascinating projects.
-              </ScrollAnimation>
+              </div>
 
               <br /><br />
 
-              <ScrollAnimation animateIn="fadeInLeft">
+              <div className="fadeInLeft">
                 Working collaboratively within a team towards a shared objective has been an incredibly rewarding and unique experience for me. I am eager to continue exploring exciting projects in the future, with a particular interest in web development.
                 <div className="tagline2">
                   I have become confident using the following technologies:
                 </div>
-              </ScrollAnimation>
+              </div>
 
 
               <Technologies>
                 {stackList.map((stack, index) => (
-                  <ScrollAnimation animateIn="fadeInRight" key={index}>
+                  <div className="fadeInRight" key={index}>
                     <Tech key={index} className="tech">
                       <TechImg src={stack.img} alt={stack.name} />
                       <TechName>{stack.name}</TechName>
                     </Tech>
-                  </ScrollAnimation>
+                  </div>
                 ))}
               </Technologies>
             </div>
