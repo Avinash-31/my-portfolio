@@ -14,7 +14,7 @@ function ProjectCard() {
   return (
     <>
       {ProjectList.map((list, index) => (
-        <ScrollAnimation animateIn="fadeIn" key={index}>
+        <ScrollAnimation animateIn="animate__jackInTheBox" animateOut="animate__zoomOutUp" key={index}>
           <Card>
             <CardLeft>
               <img src={list.img} alt={list.name} />

@@ -1,5 +1,7 @@
 import React from "react";
 import { Nav, Logo, NavLink, Bars, NavMenu, NavBtn } from "./HeaderElements";
+import ScrollAnimation from "react-animate-on-scroll";
+import "animate.css/animate.compat.css"
 
 const Header = ({ toggle }) => {
   const pdfUrl = "/Resume.pdf";
@@ -33,7 +35,7 @@ const Header = ({ toggle }) => {
         </NavBtn>
         <Bars onClick={toggle} />
       </Nav>
-    </div>
+    </div >
   );
 };
 

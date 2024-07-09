@@ -12,7 +12,7 @@ import {
 } from "./HeroElements";
 import { TypeAnimation } from 'react-type-animation';
 import ScrollAnimation from "react-animate-on-scroll";
-import "./ImageAnimation.css"; 
+import "./ImageAnimation.css";
 
 function Hero() {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,7 +29,7 @@ function Hero() {
       <HeroContainer>
         <HeroWrapper>
           <HeroLeft>
-            <ScrollAnimation animateIn="fadeIn" >
+            <ScrollAnimation animateIn="lightSpeedInLeft" animateOut="lightSpeedOutLeft" >
               <TypeAnimation
                 cursor={false}
                 sequence={[
@@ -47,32 +47,39 @@ function Hero() {
                     500,
                     'A Full-Stack Developer.',
                     1000,
-                    'A 3rd year UnderGrad at NIT Durgapur.',
-                    // 'I design and code beautifully simple things, and I love what I do.',
+                    'A 4th year UnderGrad at NIT Durgapur.',
+                    1000,
+                    'A code enthusiast.',
                     1000,
                     'A problem solver.',
                     1000,
                     'A passionate learner.',
                     1000,
+                    'A tech explorer.',
+                    1000,
+                    'A coffee lover.',
+                    1000,
+                    'A dreamer.',
+                    1000,
                     'A....',
                     1000,
-                    'A.... cool guy?',
+                    'A.... curious mind?',
                     1000,
                     "Ok...",
                     1000,
-                    "Ok...  I'm running out of ideas...",
+                    "Ok... let's see what's next...",
                     1000,
                     "Uhh...",
                     1000,
-                    "Uhh... you can scroll down to see my projects now...",
+                    "Uhh... do you like coding too?",
+                    1000,
+                    "Maybe check out my projects?",
                     300,
                     () => setShowScrollDown(true),
                     1000,
-                    "You're uh...",
+                    "You're still here?",
                     1000,
-                    "You're uh... still here?",
-                    1000,
-                    "Ok, this has been fun, but I'm gonna restart the loop now...",
+                    "Cool! Let's restart the loop!",
                     1000,
                     "See ya! :)",
                     500,
@@ -87,7 +94,7 @@ function Hero() {
 
           </HeroLeft>
           <HeroRight>
-            <ScrollAnimation animateIn="fadeIn">
+            <ScrollAnimation animateIn="backInRight" animateOut="backOutRight">
               <Image
                 src="/hero.png"
                 alt="hero"
@@ -96,16 +103,16 @@ function Hero() {
             </ScrollAnimation>
           </HeroRight>
         </HeroWrapper>
-        {showScrollDown &&<ScrollAnimation animateIn="flipInX" offset={0}>
-        <ScrollDown to="projects" id="scrollDown">
-          <ScrollLink>
-            Scroll down
-            <img
-              src="/scroll-down.svg"
-              alt="scroll-down"
-            />
-          </ScrollLink>
-        </ScrollDown>
+        {showScrollDown && <ScrollAnimation animateIn="animate__rotateIn" animateOut="rotateOut" offset={0}>
+          <ScrollDown to="projects" id="scrollDown">
+            <ScrollLink>
+              Scroll down
+              <img
+                src="/scroll-down.svg"
+                alt="scroll-down"
+              />
+            </ScrollLink>
+          </ScrollDown>
         </ScrollAnimation>}
       </HeroContainer>
     </main>
